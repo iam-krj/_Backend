@@ -1,0 +1,56 @@
+GraphQL APIs
+Based on tree data model.
+The most mature alternative to rest at the moment.
+Clients fetch data from a single endpoint.
+Clients make fewer more efficient requests.
+No underfetching or overfetching client requests.
+Easier error handling with verbose error messages.
+Accomodates faster iteration cycles.
+Mutations, fragments and type system create high UX.
+Reduces time to market by giving developers most for less.
+Does not take advantage of HTTP caching.
+Falcor APIs
+Based on graph data model.
+Falcor is the most dynamic alternative at the moment.
+Retains the idea of a path from REST.
+Retains the idea of references from REST.
+Good fit for data streaming apps.
+Good fit for live updates apps.
+Easy caching and data consistency.
+gRPC APIs
+Accepts and return Protobuf messages.
+Uses the HTTP/2 protocol.
+Uses programming language syntax with messages.
+A good fit for data streaming.
+Protobuf, unlike JSON, requires a message format.
+A perfect for for microservices architectures.
+Not as mature or widely supported.
+gRPC Gateway uses REST which erodes perceived benefits.
+JSON-Pure APIs
+Use a single transmission method to send a request.
+Separate data from transmission
+Only one response code to confirm receipt
+Easy to debug, payloads have domain-specific vocabulary
+Can be shared between transmission channels
+Not statically typed.
+oData APIs
+
+GraphQL APIs
+I write on GraphQL extensively on this blog. Because I use it alot.
+
+GraphQL is data query language with a full spec. The language is front and center.
+
+There is no getting away from it.
+
+The language spec determines the validity of the schema in graph queries.
+
+It is strongly typed. Declarative schema defines relationships between objects.
+
+Since being open-sourced by Facebook it has gained some considerable traction over both Falcor and gRPC.
+
+GraphQL continues to enjoy popular adoption since being popularly adopted by Github (now being bought by Microsoft).
+
+GraphQL has the best developer experience of all five options because it has a polished query language, complete with type syntax.
+
+This makes it more practical for most applications.
+
